@@ -83,11 +83,11 @@ class Ui_MainWindow(object):
 
         self.layout_button = QHBoxLayout()
         self.layout_button.setObjectName(u"layout_button")
-        self.pushButton = QPushButton(self.centralwidget)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setFont(font1)
+        self.button_save = QPushButton(self.centralwidget)
+        self.button_save.setObjectName(u"pushButton")
+        self.button_save.setFont(font1)
 
-        self.layout_button.addWidget(self.pushButton)
+        self.layout_button.addWidget(self.button_save)
 
         self.button_send = QPushButton(self.centralwidget)
         self.button_send.setObjectName(u"button_send")
@@ -119,11 +119,11 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.label_text.setText(QCoreApplication.translate("MainWindow", u"Texto", None))
         self.label_name.setText(QCoreApplication.translate("MainWindow", u"Nome:", None))
-        self.line_name.setText(QCoreApplication.translate("MainWindow", u"Escreva seu nome", None))
+        self.line_name.setText(QCoreApplication.translate("MainWindow", None))
         self.label_email.setText(QCoreApplication.translate("MainWindow", u"E-mail:", None))
         self.line_email.setInputMask("")
-        self.line_email.setText(QCoreApplication.translate("MainWindow", u"Escreva seu E-mail", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.line_email.setText(QCoreApplication.translate("MainWindow", None))
+        self.button_save.setText(QCoreApplication.translate("MainWindow", u"salvar", None))
         self.button_send.setText(QCoreApplication.translate("MainWindow", u"enviar", None))
     # retranslateUi
 
