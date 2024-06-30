@@ -1,0 +1,2 @@
+Olá $name.
+Seu E-mail é $email
